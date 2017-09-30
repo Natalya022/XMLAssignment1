@@ -1,0 +1,33 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <foaf:Person>
+
+    <foaf:name>Natalya Kumar</foaf:name>
+
+    <foaf:homepage rdf:resource="https://plus.google.com/+NatAlyakumar"/>
+
+    <foaf:depicts rdf:resource="https://plus.google.com/photos/102680937975326487655/albums/profile/6158755028685552882"/> 
+
+    <foaf:interest rdf:resource="http://semanticweb.org"/>
+
+    <foaf:knows>
+
+       <foaf:Person>
+
+         <foaf:name>Achalaja Saini</foaf:name>
+
+       </foaf:Person>   
+
+    </foaf:knows>
+
+  </foaf:Person>
+
+  <rdf:Property rdf:about="http://semanticweb.org">
+   
+   <rdfs:label> Semantic Web </rdfs:label>
+
+  </rdf:Property>
+
+</rdf:RDF>
+  
